@@ -1,9 +1,5 @@
 import API_KEY from "api-key";
 
-// Use the API_KEY variable in your code
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${countryCode}&appid=${API_KEY}`;
-
-
 // Define the city and country code for Linz, Austria
 const city = "Linz";
 const countryCode = "AT";
