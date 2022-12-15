@@ -1,12 +1,9 @@
-import API_KEY from "api-key";
-
 // Define the city and country code for Linz, Austria
 const city = "Linz";
 const countryCode = "AT";
 
 // Construct the URL for the API request
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${countryCode}&appid=${API_KEY}&lang=de`;
-
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${countryCode}&appid=${config.apiKey}`;
 // Use the fetch() method to send a GET request to the API
 fetch(url)
   .then((response) => {
