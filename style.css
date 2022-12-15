@@ -1,0 +1,25 @@
+body {
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+  
+  #weather h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+  }
+
+  #weather ul {
+    list-style: none;
+  }
+  
+
